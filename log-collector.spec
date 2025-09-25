@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        A simple log collector service for Linux
 
 License:        MIT
-URL:            https://github.com/youruser/yourrepo
+URL:            https://github.com/Ashmit-Kumar/opsentra-host
 Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 
@@ -39,5 +39,5 @@ install -m 644 log-collector.service %{buildroot}/usr/lib/systemd/system/log-col
 %systemd_postun_with_restart log-collector.service
 
 %changelog
-* Thu Sep 25 2025 Your Name <you@example.com> - 1.0-1
+* Thu Sep 25 2025 Your Name ashmitkumar1020@gmail.com - 1.0-1
 - Initial package

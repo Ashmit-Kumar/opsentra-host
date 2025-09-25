@@ -9,7 +9,7 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     env:
-      TARGET_REPO: youruser/rpm-hosting
+      TARGET_REPO: Ashmit-Kumar/opsentra-host
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
